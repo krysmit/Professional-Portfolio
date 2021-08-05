@@ -1,0 +1,100 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:palegreen;
+    border-top: solid black 3px;
+    border-left: solid black 3px;
+    border-right: solid black 3px;
+}
+
+h1 {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius:20px
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+    font-size: 15px;
+}
+
+nav li {
+    display: flex;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    justify-content: flex-end;
+    position: relative;
+}
+
+section h2 {
+    display: flex;
+    border-right: black solid 5px;
+    width: 150px;
+}
+
+.banner {
+    border-right: black solid 3px;
+    border-left: solid black 3px;
+    border-bottom: solid black 3px;
+}
+
+.bannerbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.krystyn {
+    border-radius: 30%;
+    max-width: 150px;
+}
+
+.knowledge {
+    border: solid black 3px;
+    margin: 10px;
+    width: 800px;
+    padding: 20px;
+    position: relative;
+}
+
+
+ .scratchgames {
+    border: solid black 3px;
+    margin: 10px;
+    width: 800px;
+    position: relative;
+}
+
+
+.currentprojects {
+    border: solid black 3px;
+    margin: 10px;
+    width: 800px;
+    position: relative;
+} 
+
+.titles-for-content {
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.featuredcontent {
+    height: 450px;
+}
+
+.othercontent {
+    height: 225px;
+    width: 400px;
+} 
