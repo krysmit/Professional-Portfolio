@@ -7,8 +7,8 @@ header {
     display: flex;
     justify-content: space-between;
     background-color:palegreen;
-    border-top: solid black 3px;
-    border-left: solid black 3px;
+    /* border-top: solid black 3px;
+    border-left: solid black 3px; */
     border-right: solid black 3px;
     width: 100%;
 }
@@ -25,6 +25,8 @@ nav ul {
     justify-content: space-between;
     min-width: 250px;
     font-size: 15px;
+    background-color:palegreen;
+
 }
 
 p {
@@ -35,10 +37,14 @@ p {
     width: 500px;
 }
 
+nav {
+    background-color:palegreen;
+}
+
 nav li {
     display: flex;
-    background-color: lightblue;
     border-radius: 20px;
+    background-color: lightblue;
     padding: 10px;
     margin-right: 20px;
     justify-content: flex-end;
@@ -52,7 +58,11 @@ section {
 section h2 {
     display: flex;
     width: 150px;
-    border: black solid 3px;
+    /* border: black solid 3px; */
+}
+
+.page-links {
+    background-color: lightblue;
 }
 
 .words {
@@ -86,7 +96,6 @@ section h2 {
     width: 800px;
     position: relative;
 }
-
 
  .scratchgames {
     border: solid black 3px;
@@ -123,5 +132,12 @@ section h2 {
 
 .sidebyside {
     display: flex;
+    /* display: inline-block; */
     /* border: black solid 3px; */
+}
+
+.projectalignment {
+    display: flex;
+    display: block;
+    flex-direction: row;
 }
