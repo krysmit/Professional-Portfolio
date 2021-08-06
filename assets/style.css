@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(21, 78, 134);
 }
 
 header {
@@ -9,13 +10,14 @@ header {
     border-top: solid black 3px;
     border-left: solid black 3px;
     border-right: solid black 3px;
+    width: 100%;
 }
 
 h1 {
     margin-left: 20px;
     padding: 10px;
     background-color: lightblue;
-    border-radius:20px
+    border-radius:20px;
 }
 
 nav ul {
@@ -23,6 +25,14 @@ nav ul {
     justify-content: space-between;
     min-width: 250px;
     font-size: 15px;
+}
+
+p {
+    /* border-left: black solid 5px;
+    border-right: black solid 5px;
+    border-top: black solid 5px;
+    border-bottom: black solid 5px; */
+    width: 500px;
 }
 
 nav li {
@@ -35,21 +45,34 @@ nav li {
     position: relative;
 }
 
+section {
+    margin-bottom: 100px;
+}
+
 section h2 {
     display: flex;
-    border-right: black solid 5px;
     width: 150px;
+    border: black solid 3px;
+}
+
+.words {
+    border-left: black solid 5px;
+    width: 600px;
+    padding-left: 20px;
+}
+
+.about-and-pic {
+    align-content: right;
+    padding-right: 20px;
+    /* border: black solid 3px; */
+        
 }
 
 .banner {
     border-right: black solid 3px;
     border-left: solid black 3px;
     border-bottom: solid black 3px;
-}
-
-.bannerbox {
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
 }
 
 .krystyn {
@@ -61,7 +84,6 @@ section h2 {
     border: solid black 3px;
     margin: 10px;
     width: 800px;
-    padding: 20px;
     position: relative;
 }
 
@@ -69,16 +91,15 @@ section h2 {
  .scratchgames {
     border: solid black 3px;
     margin: 10px;
-    width: 800px;
     position: relative;
+    flex: 1;
 }
-
 
 .currentprojects {
     border: solid black 3px;
     margin: 10px;
-    width: 800px;
     position: relative;
+    flex: 1;
 } 
 
 .titles-for-content {
@@ -91,10 +112,16 @@ section h2 {
 }
 
 .featuredcontent {
-    height: 450px;
+    height: 100;
+    width: 100%;
 }
 
 .othercontent {
-    height: 225px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
 } 
+
+.sidebyside {
+    display: flex;
+    /* border: black solid 3px; */
+}
