@@ -109,7 +109,7 @@ footer {
     position: relative;
 }
 
- .scratchgames {
+.scratchgames {
     border: solid black 3px;
     margin-left: 50px;
     position: relative;
@@ -144,6 +144,7 @@ footer {
 
 .sidebyside-aboutme {
     display: flex;
+    margin-top: 30px;
 }
 
 .sidebyside {
