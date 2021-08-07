@@ -44,13 +44,7 @@ nav li {
     position: relative;
 }
 
-/* p, section, and section h2 are all styling the Projects section */
-p {
-    width: 700px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
+/*section, and section h2 are all styling the Projects section */
 section {
     margin-bottom: 100px;
 }
